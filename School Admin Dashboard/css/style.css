@@ -1,0 +1,243 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+}
+
+
+/* navbar style  */
+.navbar-header .navbar-brand{
+    font-size: 24px;
+    color: #fff;
+}
+.navbar-header .navbar-brand:hover{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+i{
+    font-size: 24px;
+}
+
+
+/* sidebar style */
+
+#sidebar{
+    position: fixed;
+    border: 1px solid #ccc;
+    width:250px;
+    margin-top: -30px;
+    height:100%;
+    background: #262626;
+    left:-250px;
+    transition: all 500ms linear;
+}
+#sidebar.active{
+    left:0px;
+}
+#sidebar ul li{
+   
+    list-style: none;
+    padding:18px 25px;
+    border-bottom:1px solid #fff;
+    display: block;
+    
+}
+#sidebar ul li a{
+    font-size: 16px;
+    color: #fff;
+    height: 40px;
+}
+#sidebar ul li:hover{
+    background-color: #404040;
+   
+}
+
+
+#sidebar ul li a:hover{
+    
+    text-decoration: none;
+    color: cyan;
+
+}
+#sidebar ul li ul li{
+    display: none;
+    position: relative;
+     color:rgba(230,230,230,0.9);
+    list-style: none;
+    padding-top:10px;
+    padding-left:15px;
+   
+    /*border-top:1px solid;*/
+    font-size: 16px;
+}
+#sidebar ul li ul li:hover{
+    text-decoration: none;
+    background-color:#353636;
+    color: white;
+
+}
+
+
+#sidebar ul li:hover>ul li{
+    display: block;
+}
+
+#sidebar .toggle-btn{
+    position:absolute;
+    left:270px;
+    top:20px;
+}
+#sidebar .toggle-btn span{
+    display: block;
+    width:30px;
+    height:5px;
+    background:#151719;
+    margin:5px 0px;
+}
+.txtStyle{
+    width: 100%;
+    height: 40px;
+    border: 1px solid green;
+    border-radius: 2px;
+    padding-left: 8px;
+    font-size: 18px; 
+  
+}
+.btnStyle{
+        padding: 0px;
+        width: 48%;
+        font-size: 14px;
+        height: 40px;
+    }
+.
+label{
+    font-size: 18px;
+    margin-left: -15px;
+}
+
+
+
+@media(max-width: 992px){
+.txtStyle{
+}
+.btnStyle{
+        padding: 0px;
+        width: 27%;
+        font-size: 14px;
+        height: 40px;
+    }
+}
+@media(max-width: 768px){
+    
+.btn-style{
+    width: 100%;
+    font-size: 16px;
+   
+    margin: 0 auto;
+   
+}
+
+}
+
+@media(max-width: 576px){
+.txtStyle{
+     width: 100%;
+    height: 30px;
+    border: 1px solid green;
+    border-radius: 2px;
+    padding-left: 5px;
+    font-size: 14em;
+    min-width: 200px;
+
+}
+.toggle-btn{
+    font-size: 12px;
+}
+
+
+.btn-style{
+    width: 100%;
+    font-size: 14px;
+    padding: 4px;
+    margin: 0 auto;
+   
+}
+
+}
+/*   New Clss Css Style */
+    .btn-style{
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+    margin: 0 auto;
+   
+}
+.row_style{
+    width: 50%;
+    margin: 0 auto;
+    min-width: 320px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.2), 1px 5px 8px rgba(0,0,0,0.2);
+}
+/* studentRecord css Style */
+.main-container{
+    width:65%;
+    margin-right: 10%;
+    border:1px solid;
+    padding-top: 80px;
+    float:right;
+    padding-left:3%; 
+
+}
+label{
+    font-size: 15px;
+    margin-left: 5px;
+
+}
+
+.main_container{
+    width: 60%;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.2), 1px 5px 8px rgba(0,0,0,0.2);
+    margin: 100px auto; 
+}
+
+
+table{
+    margin: 30px 0;
+    
+    
+    
+}
+
+.txtStyle{
+    width: 100%;
+    height: 35px;   
+    border: 1px solid rgba(33,171,92,1.00);
+    border-radius: 2px;
+    font-size: 15px;
+    padding-left:10px;
+}
+.txtAreaStyle{
+    width: 100%;
+     
+    border: 1px solid rgba(33,171,92,1.00);
+    border-radius: 2px;
+    font-size: 16px;
+    padding-left:10px;
+
+}
+/* Student Search css style*/
+.main_containerr{
+    padding:2%;
+    width:75%;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.2), 1px 5px 8px rgba(0,0,0,0.2);
+    margin: 100px;
+    margin-left:300px;
+
+}
+::placeholder {
+  color:#bfbfbf;
+  font-size: 13px;
+}
+
